@@ -1,0 +1,141 @@
+.feature-section {
+    padding: 50px 240px 50px 240px;
+    background-color: #E6F0F9;
+}
+.feature-section h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.feature-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.feature-box{
+    width: 280px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 6px;
+    /* margin: 10px 0px; */
+    margin-bottom: 20px;
+    height: 247px;
+    transition: all 0.5s ease-in;
+    overflow: hidden;
+}
+
+.feature-box:hover{
+    height: 100%;
+ box-shadow: 0px 10px 30px #0000001A;
+}
+.simble-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.simble-img .left-co{
+    display: flex;
+    align-items: center;
+}
+.simble-img .left-co h3{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.company-de{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+.company-de h5{
+    font-size: 14px;
+    margin-bottom: 0px;
+    width: 40%;
+}
+.company-de p{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.company-de .star{
+    color: #FFB507;
+    margin-bottom: 4px;
+    margin-right: 5px;
+}
+
+
+.company-requirement{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.require-left{
+    display: flex;
+    align-items: center;
+}
+.require-left .loca-cart{
+    margin-left: 10px;
+}
+.fe-ulli{
+    padding-left: 1.1rem;
+}
+.fe-ulli li{
+    list-style: outside;
+    color: #999999;
+    margin-right: 0px;
+    margin-top: 6px;
+    font-size: 14px;
+}
+.require-left .col-bo{
+    font-size: 14px;
+}
+.require-right{
+    font-size: 14px;
+}
+
+
+.feature-section button{
+    background-color: #0969C3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 16px;
+}
+
+.feature-section button:hover{
+    background-color: #002745;
+}
+
+
+/* media query -----------------------------------------------------------------------------*/
+@media screen and (max-width: 1370px) {
+    .feature-section {
+        padding: 70px 100px 70px 100px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .feature-section{
+        padding: 1px 30px;
+    }
+}
+@media screen and (max-width: 960px) {
+    .feature-section{
+        padding: 50px 15px;
+    }
+    .feature-box{
+        width: 48%;
+        padding: 15px;
+        height: 242px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .feature-box{
+        width: 100%;
+        padding: 15px;
+        height: 240px;
+    }
+}

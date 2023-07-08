@@ -1,0 +1,81 @@
+.footer{
+    padding: 0px 240px 0px 240px;
+    background-color: #fff;
+}
+.footer-sections{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+}
+.footer-box h4{
+font-size: 20px;
+}
+.mail , .email{
+    margin-right: 10px;
+}
+.social-medea .anco{
+margin-right: 10px;
+}
+.footer-box a{
+    text-decoration: none;
+    color: #181717;
+    margin-top: 10px;
+}
+.mail a, .email a{
+    margin-top: 0px;
+}
+.footer-box .mail, .footer-box .email{
+display: flex;
+align-items: center;
+}
+
+.footer-box a:hover{
+    color: #4d4c4c;
+}
+.item-one img{
+    width: 80px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1370px) {
+    .footer {
+        padding: 0px 100px 50px 100px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .footer{
+        padding: 1px 30px;
+    }
+}
+@media screen and (max-width: 960px) {
+    .footer{
+        padding: 0px 15px;
+    }    
+}
+
+@media screen and (max-width: 760px) {
+ .footer-box{
+    width: 50%;
+    text-align: start;
+ }
+}
+@media screen and (max-width: 460px) {
+    .footer-box{
+       width: 90%;
+       text-align: center;
+       display: flex;
+       justify-content: center;
+       margin-top: 20px;
+    }
+    .footer-box .mail, .footer-box .email{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+   }

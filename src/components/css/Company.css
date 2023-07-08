@@ -1,0 +1,83 @@
+.find-company {
+    padding: 50px 240px 50px 240px;
+    background-color: #fff;
+}
+
+.company-cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.compa-card{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: 1px solid #E2DEDE;
+    width: 280px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.compa-card:hover{
+ box-shadow: 0px 10px 30px #0000001A;
+ border: 1px solid #0969C3;
+}
+.compa-card h4{
+    font-size: 16px;
+}
+.compa-card .left-co{
+    display: flex;
+    align-items: center;
+}
+.left-co img{
+    margin-right: 10px;
+}
+
+.top-co p{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-co .star{
+    color: #FFB507;
+    margin-bottom: 4px;
+    margin-right: 5px;
+}
+
+
+
+
+/* media query */
+@media screen and (max-width: 1370px) {
+    .find-company {
+        padding: 60px 100px 30px 100px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .find-company{
+        padding: 1px 30px;
+    }
+}
+@media screen and (max-width: 960px) {
+    .find-company{
+        padding: 50px 15px;
+    }
+    .compa-card{
+        width: 48%;
+        padding: 15px;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .compa-card{
+        width: 100%;
+        padding: 15px;
+        height: 100%;
+    }
+}
